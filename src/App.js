@@ -11,7 +11,7 @@ export default () => {
 
   return (
     <Grid style={{ justifyContent: "center" }} container spacing={10}>
-      <Grid item xs={11}>
+      <Grid item xs={12}>
         <Grid container spacing={10}>
           <Grid item xs={12}>
             <SearchBar onSubmit={handleSubmit} />
